@@ -45,12 +45,6 @@ This repository provides straightforward, well-documented Python implementations
 - Merge Sort
 - Quick Sort (Lomuto/Hoare variants)
 - Heap Sort
-- Counting Sort
-- Radix Sort (LSB / MSD)
-- Bucket Sort
-- Timsort (optional / reference)
-
-(If your repo has a different set, update this list accordingly.)
 
 ## Installation
 Clone the repository:
@@ -120,10 +114,8 @@ Insertion Sort | O(n^2) | O(n^2) | O(n) | O(1)
 Merge Sort | O(n log n) | O(n log n) | O(n log n) | O(n)
 Quick Sort | O(n^2) | O(n log n) | O(n log n) | O(log n) (avg)
 Heap Sort | O(n log n) | O(n log n) | O(n log n) | O(1)
-Counting Sort | O(n + k) | O(n + k) | O(n + k) | O(k)
-Radix Sort | O(nk) | O(nk) | O(nk) | O(n + k)
 
-(Replace with actual complexities provided by implemented variants.)
+
 
 ## Benchmarks
 To run the included benchmarks:
@@ -186,9 +178,4 @@ This project is licensed under the MIT License — see the LICENSE.md file for d
 ## Author
 kcm0987 — feel free to open issues or pull requests.
 
----
 
-Would you like me to:
-- commit this README.md to the repository now?
-- include badges (CI, PyPI) with real links?
-- tailor the README to the exact files currently in the repo (I can inspect the repo and tailor it)?
